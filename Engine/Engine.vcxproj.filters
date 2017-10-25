@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Cpps">
+      <UniqueIdentifier>{ecdd6a5c-7415-48f3-acfe-3b5a30d08706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers">
+      <UniqueIdentifier>{b6d36506-334e-44f4-bb34-5867d5a2dde3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Physics">
+      <UniqueIdentifier>{15a6c134-002e-451c-b2b6-4d0b4b5df7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Vector">
+      <UniqueIdentifier>{1911942e-7757-4a3c-98db-d887bb998194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Render">
+      <UniqueIdentifier>{41dec1f4-58a4-4448-aaf4-071bad50e2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Utilities">
+      <UniqueIdentifier>{6aaa4663-3c85-4db3-9d48-bd13ad80479b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Actor&amp;Controller">
+      <UniqueIdentifier>{8b40cf58-3833-4424-8510-170e456ce4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Threads">
+      <UniqueIdentifier>{5b556892-1630-4e8d-a758-9b932c4f82c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\File">
+      <UniqueIdentifier>{c80835d0-6425-40a2-abb8-b80d3aa438b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Collision">
+      <UniqueIdentifier>{1df60094-7057-427e-b8af-c3f3b704b9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\HashString">
+      <UniqueIdentifier>{d488604b-88cd-4a0f-a2f1-340cea7176cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\Messaging">
+      <UniqueIdentifier>{e6a66789-7c3b-4c7d-ab4d-a24f81694f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\UI">
+      <UniqueIdentifier>{6dbc06df-c7c0-46b3-8c28-53548576864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Headers\JobSystem">
+      <UniqueIdentifier>{d78f371c-55f9-498e-b258-a64d667a95f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Private\PhysicActor.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\SimplePhysicSystem.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\AllocatorOperation.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\EngineOperation.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\EngineWorld.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\SimpleRenderingSystem.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitableObjects.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\Events.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\Mutex.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\Semaphore.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\ThreadFileProcessor.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaActorFile.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\Vector.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\CollisionObjects.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\CollisionSystem.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\ViehcleController.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerFactory.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\IJob.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\JobRunner.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\JobSystem.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Private\SharedJobQueue.cpp">
+      <Filter>Source Files\Cpps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllocatorOperation.h">
+      <Filter>Header Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineOperation.h">
+      <Filter>Header Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineWorld.h">
+      <Filter>Header Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorController.h">
+      <Filter>Header Files\Headers\Actor&amp;Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicActor.h">
+      <Filter>Header Files\Headers\Actor&amp;Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicActor.h">
+      <Filter>Header Files\Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRenderingSystem.h">
+      <Filter>Header Files\Headers\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplePhysicSystem.h">
+      <Filter>Header Files\Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>Header Files\Headers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadFileProcessor.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitableObjects.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleWriterMultipleReader.h">
+      <Filter>Header Files\Headers\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaActorFile.h">
+      <Filter>Header Files\Headers\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Headers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Headers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObjects.h">
+      <Filter>Header Files\Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Header Files\Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="HashString.h">
+      <Filter>Header Files\Headers\HashString</Filter>
+    </ClInclude>
+    <ClInclude Include="ViehcleController.h">
+      <Filter>Header Files\Headers\Actor&amp;Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerFactory.h">
+      <Filter>Header Files\Headers\Actor&amp;Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultController.h">
+      <Filter>Header Files\Headers\Actor&amp;Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassNameWrapper.h">
+      <Filter>Header Files\Headers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMessageSystem.h">
+      <Filter>Header Files\Headers\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="IJob.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="INamed.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobRunner.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue-inl.h">
+      <Filter>Header Files\Headers\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBasedEvents.h">
+      <Filter>Header Files\Headers\Messaging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

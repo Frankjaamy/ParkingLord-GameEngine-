@@ -1,0 +1,8 @@
+﻿  Utilities.cpp
+  NewandDelete.cpp
+  MyHeapManager.cpp
+  FixedSizeAllocator.cpp
+  BitArray.cpp
+  Allocator.cpp
+  Generating Code...
+  MemoryAllocator.vcxproj -> C:\Users\u1072146\u1072146\GraphicsApp\..\x64\Debug\MemoryAllocator.lib
